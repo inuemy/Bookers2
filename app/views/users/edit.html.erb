@@ -1,3 +1,7 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-5 px-5 px-sm-0 mx-auto">
+
 <h2>User info</h2>
 <% if @user.errors.any? %>
   <%= @user.errors.count %>件のエラーが発生しました
@@ -26,6 +30,9 @@
   </div>
 
   <div class="actions">
-    <%= f.submit "Update User" %>
+    <%= f.submit "Update User", class:"btn btn-secondary" %>
   </div>
 <% end %>
+</div>
+</div>
+</div>
